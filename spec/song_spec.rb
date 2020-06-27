@@ -30,7 +30,7 @@ describe 'Song' do
 
   describe '.all' do
     it 'returns all existing Song instances' do
-      song = Song.new('Man in the Mirror')
+      # song = Song.new('Man in the Mirror')
       expect(Song.all).to eq([song])
       purple_rain = Song.new('Purple Rain')
       expect(Song.all).to eq([song, purple_rain])
